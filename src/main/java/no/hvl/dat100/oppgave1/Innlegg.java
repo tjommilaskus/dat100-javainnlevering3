@@ -3,6 +3,10 @@ package no.hvl.dat100.oppgave1;
 import no.hvl.dat100.common.TODO;
 
 public abstract class Innlegg {
+	private int id;
+	private String bruker;
+	private String dato;
+	private int likes;
 	
 	// TODO - deklarering av objektvariable
 	
