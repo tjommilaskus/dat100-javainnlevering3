@@ -11,6 +11,8 @@ public abstract class Innlegg {
 	// TODO - deklarering av objektvariable
 	
 	public Innlegg() {
+		//test
+		
 		
 	}
 	
