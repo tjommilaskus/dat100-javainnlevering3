@@ -26,9 +26,13 @@ public class Tekst extends Innlegg {
 		this.tekst = tekst;
 	}
 
+	public String getGranparentToString(){
+		return super.toString();
+	}
+
 	@Override
 	public String toString() {
-		return "TEKST\n" + super.toString() + this.tekst + "\n";
+		return "\n" + super.toString()  + tekst + "\n";
 	}
 	
 	// Metoden nedenfor er kun for valgfri oppgave 6

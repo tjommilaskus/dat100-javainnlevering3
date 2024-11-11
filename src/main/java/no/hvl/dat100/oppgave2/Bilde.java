@@ -26,7 +26,7 @@ public class Bilde extends Tekst {
 
 	@Override
 	public String toString() {
-		return "BILDE\n" + super.toString() + this.url + "\n";
+		return "BILDE\n" + super.getGranparentToString() + this.url + "\n";
 	}
 
 	// Metoden nedenfor er kun for valgfri oppgave 6

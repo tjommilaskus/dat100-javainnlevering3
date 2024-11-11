@@ -2,13 +2,12 @@ package no.hvl.dat100.oppgave5;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-import no.hvl.dat100.oppgave1.Bilde;
+import no.hvl.dat100.oppgave2.Bilde;
 import no.hvl.dat100.oppgave1.Innlegg;
-import no.hvl.dat100.oppgave1.Tekst;
+import no.hvl.dat100.oppgave2.Tekst;
 import no.hvl.dat100.oppgave3.Blogg;
 
 public class LesBlogg {

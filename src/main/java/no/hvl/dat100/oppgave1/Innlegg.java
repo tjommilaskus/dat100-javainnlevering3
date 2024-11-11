@@ -1,6 +1,5 @@
 package no.hvl.dat100.oppgave1;
 
-import no.hvl.dat100.common.TODO;
 
 public abstract class Innlegg {
 	private int id;
@@ -8,7 +7,6 @@ public abstract class Innlegg {
 	private String dato;
 	private int likes;
 	
-	// TODO - deklarering av objektvariable
 	
 	public Innlegg() {
 		this.id = 0;
@@ -69,7 +67,7 @@ public abstract class Innlegg {
 	
 	@Override
 	public String toString() {
-		return this.id + "\n" + this.bruker + "\n" + this.likes + "\n";
+		return id + "\n" + bruker + "\n" + dato + "\n" + likes + "\n";
 				
 	}
 	
